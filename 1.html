@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class=" p-0 m-0 bg-cover bg-no-repeat bg-center lg:bg-top font-[Raleway]" 
+style="background-image: url('cover.png'); width: 100%; height:650px;" >
+<div class=" lg:h-[300px]">
+    <div class="flex p-[12px] justify-between bg-white">
+     <div class="flex lg:ml-[40px]">
+      <a href="mailto:media@edventurepark.com" class="fa fa-envelope  lg:pl-[8px] "> ceo@edventurepark.com</a>
+      <li class="fa fa-phone  ml-7   lg:pl-[8px]  " > <span> 91 63098 06633</span></li>
+     </div>
+     <div class="hidden lg:flex mr-[40px]" >
+      <a href="https://twitter.com/EdventurePark" class="fa fa-twitter  pl-[8px] "></a>
+      <a href="https://www.facebook.com/EdVenP/" class="fa fa-facebook  pl-[8px] "></a>
+      <a href="https://www.instagram.com/edventurepark/"class="fa fa-instagram  pl-[8px] "></a>
+      <a href="https://www.linkedin.com/company/edventure-park/mycompany/" class="fa fa-linkedin  pl-[8px] "></a>
+      </div>
+    </div>
+    <header class="bg-black ">
+        <nav class="flex justify-between items-center w-[92%] mx-auto py-5">
+            <div>
+                <img class="w-16" src="download.png" />
+              </div>
+              <div
+              class="nav-links duration-500 md:static absolute bg-black md:min-h-fit min-h-[60vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5"
+            >        
+            <ul class="flex md:flex-row flex-col md:items-center md:gap-[2vw] gap-5 text-white">
+            <li class=" underline-offset-8"><u>Home</u></li>
+            <li class=" underline-offset-8"><u>About</u> </li>
+            <li class=" underline-offset-8"><u>What We Offer</u></li>
+            <li class=" underline-offset-8"><u>Events</u></li>
+            <li class=" underline-offset-8"><u>FAQ'S</u> </li>
+            <li class=" underline-offset-8"><u>Our Companies</u> </li>
+            <li class=" underline-offset-8"><u>Contact</u> </li>
+            </ul>
+        </div>
+        <div class="flex items-center gap-4">
+            <button
+            class="bg-lime-300 font-bold text-white text-xs lg:text-base px-5 py-1 rounded-full hover:bg-[]"
+          >CEO-BETA
+          </button>
+          <button
+          class="bg-teal-300 font-bold text-white text-xs lg:text-base px-5 py-1 rounded-full hover:bg-[]"
+        >APPLY NOW
+        </button>
+          <ion-icon
+            onclick="onToggleMenu(this)"
+            name="menu"
+            class="text-3xl cursor-pointer text-white md:hidden"
+          ></ion-icon>
+           </div>
+        </nav>
+    </header>
+<section >
+    <div  class="text-3xl pl-2 lg:pt-[85px] text-lime-300 font-semibold lg:pl-[70px] lg:text-5xl ">
+    <h1 >INDIA'S FIRST STUDENT-FOCUSSED STARTUP <br> INCUBATOR (NON-ACADEMIC)</h1>
+    </div>
+    <div class="text-white pl-2 text-lg lg:text-2xl lg:pl-[70px] font-semibold mt-[20px]" >
+      <p>Also, India's Fastest Incubator to have incubated 100+ Startups in just 18 months!! <br>
+        Apply to the Pre-Incubation Program of our next Cohort.</p></div>
+        <div class="text-sm pl-2 pt-[60px] lg:pt-[10px] lg:mt-[20px] lg:pl-[70px] " >
+      <button class=" text-white font-bold text-m bg-[#00c2cb] rounded-3xl py-[10px] px-[35px]">APPLY NOW</button>
+    </div>
+    </div>
+    
+    <main class="">
+     <div class=" sm:flex-row lg:flex flex-wrap pt-[200px] ">  
+       <div class=" p-[15px] m-[15px] lg:ml-[60px] bg-[#00c2cb] lg:w-[30%] h-[500px]">
+        <h1 class="font-bold text-white text-4xl flex justify-center pt-[20px] pb-[20px]">Why Choose EdVenture Park?</h1>
+        <p class="pt-[12px] pb-[12px] text-white">Unlike any other incubator across the nation, We provide a program specially curated for the needs of students. We have introduced the concept of the pre-incubation program where we give opportunities to anyone who comes in with just an idea and We aim to help you build it into a reality. The community, culture and the program is pretty exquisite and We have alot of fun in the process.</p>
+        <button class=" ml-[50px] font-bold text-white bg-transparent border rounded-3xl py-[5px] px-[15px]"> Learn more ></button>
+       </div>
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-[500px] lg:w-[60%] h-[400px] lg:mb-0 gap-3" >
+        <div class="border-[1px]  p-[45px] my-[35px] mr-[2px] rounded-[12px] bg-white shadow-md  ">
+         <div class="flex justify-center">
+         <img src="images/first.png" class="w-[50px] h-[50px] rounded-[60px]">
+         </div>
+         <h1 class="font-bold">Guidance & Support</h1>
+         <p class="pt-[12px]">Personalised & Ondemand Support. Whatever You need, We have got you covered.</p>
+        </div>
+     <div class="border-[1px]  p-[45px] my-[35px] ml-[6px] rounded-[12px] bg-white shadow-md ">
+        <div class="flex justify-center">
+            <img src="images/second.png" class="w-[50px] h-[50px] rounded-[60px]">
+        </div>
+        <h1 class="font-bold"> Tailor Made Incubation Program</h1>
+        <p class="pt-[12px]">We take immense pride in claiming that we are the first incubator to have a Pre-Incubation Program, specially curated for you</p>
+    </div>
+    <div class="border-[1px]  p-[45px] my-[35px] ml-[6px] rounded-[12px] bg-white shadow-md ">
+        <div class="flex justify-center">
+            <img src="images/third.png" class="w-[50px] h-[50px] rounded-[60px]">
+        </div>
+        <h1 class="font-bold">Exclusive Workshops </h1>
+        <p class="pt-[12px] ">Exclusive workshops only for our incubatees where they get hands on real time experience about their ideas and how to tackle the hurdles</p>
+        </div>
+    </div>
+    </main>
+</section>
+<div class="w-[100%] sm:flex">
+<section class="lg:flex flex-wrap pt-[100px] ">
+    <div class="lg:w-[41%]   ">
+        <div class="overlay absolute mt-60 ml-20 lg:m-40 lg:mt-[30%]">
+            <a href="https://www.youtube.com/watch?v=1qtdz1ITTco&feature=youtu.be" class="icon" title="">
+              <img src="images/play.webp" width="200px" alt="">
+            </a>
+            </div>
+        <img  src="evpp1.jpg " width="fit" class=""></img>
+      
+    </div>
+   
+   
+    <div class="lg:w-[59%] ">
+        <div class="mt-[40px] lg:ml-[30px]">
+        <h1 class="text-3xl ml-[20px] ">What is <span class="text-3xl font-bold text-[#00c2cb]">EdVenture Park?</span></h1>
+        <p class="ml-[20px]">EdVenture Park is a student-focused idea stage startup incubator which aims to empower student led startups through an intensive 4 month pre Incubation programme. This pre incubation programme is specially curated for students and as per their schedule.</p>
+        <p class="ml-[20px]"> Any student having an entrepreneurial idea can apply for the Pre Incubation Program at EdVenture Park where we will be working with those student entrepreneurs, taking them through the fundamental tracks of building a company, organising exclusive sessions/workshops and giving them all the support & guidance they need for them to take their idea to the next level. Students can experiment with their ideas and have an opportunity of starting their own company while still in college.</p>
+        <div class="flex pt-[40px]">
+            <div class="float-left  lg:pl-[20px] pt-[20px]">
+                <div class="bg-[url('/images/batch.png')] hover:bg-[url('/images/hover1.png')] bg-cover w-20 h-20"></div>
+            </div>
+            <div class=" p-[15px]">
+            <h1 class="font-bold">Pre-Incubation Program</h1>
+            <p class="">A 13 week long structure and intensive program, where the startups work on their ideas and build their MVP(Minimum Viable Product) through a series of 8 tasks and interactions with the mentors from the ecosystem!</p>
+            </div>
+        </div>
+        <div class="flex pt-[40px]">
+            <div class="float-left  lg:pl-[20px] pt-[20px]">
+                <div class="bg-[url('/images/highlighter.png')] hover:bg-[url('/images/hover2.png')] bg-cover w-20 h-20"></div>
+            </div>           
+            <div class="p-[15px] ">
+            <h1 class="font-bold">Incubation Program</h1>
+            <p>After the Pre incubation programme, selected companies move to the Incubation Program. In 3 months, Edventure Park helps you figure out the product market fit of your solution and attract investors to scale up your business</p>       
+            </div>
+        </div>
+        <div class="flex pt-[40px]">
+            <div class="float-left  lg:pl-[20px] pt-[20px]">
+                <div class="bg-[url('/images/chart.png')] hover:bg-[url('/images/hover3.png')] bg-cover w-20 h-20"></div>
+            </div>
+            <div class="p-[15px] ">
+            <h1 class="font-bold">Acceleration Program</h1>
+            <p>After the Incubation programme, the solutions which are created by the incubatees are accelerated and scaled onto the next level. In these 2 months long period, Growth hacking, marketing strategies and different tactics are used to accelerate the business of the startup.</p>   
+            </div>
+        </div>
+        </div>
+</section>
+</div>
+    
+
+<div class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-cols-4 pt-[0px] bg-[#f1f7fd] ">
+    <div class=" pt-[40px] justify-center items-center">
+        <div class="flex justify-center">
+            <img src="images/a.png" class="w-[70px] h-[70px] rounded-full  ">
+        </div>
+        <div class="mt-[-31px] py-[0px] p-[48px] mx-[24px] bg-white h-[150px]">
+            <p class="counter  pl-[70px] pt-[30px] pb-[12px]  font-bold" data-count="127">0</p>
+            <p class="pt-[12px] pb-[12px] center">Student Startups</p>
+        </div>
+    </div>
+    <div class=" pt-[40px] justify-center items-center">
+        <div class="flex justify-center ">
+            <img src="images/b.png" class="w-[70px] h-[70px] rounded-[60px]">
+        </div>
+        <div class="mt-[-31px] py-[0px] p-[48px] m-[24px] bg-white h-[150px]">
+            <p class="counter pl-[74px] pt-[30px] pb-[12px] font-bold" data-count="300">0</p>
+            <p class="center pt-[12px] pb-[12px]">Student Entrepreneurs</p>
+        </div>
+    </div>
+    <div class=" pt-[40px] justify-center items-center">
+        <div class="flex justify-center items-center">
+            <img src="images/c.png" class="w-[70px] h-[70px] rounded-[60px]">
+        </div>
+        <div class="mt-[-31px] py-[0px] p-[48px] m-[24px] bg-white h-[150px]">
+            <p class="counter pl-[71px] pt-[30px] pb-[12px] font-bold" data-count="165">0</p>
+            <p class="center pt-[12px] pb-[12px]">Women Entrepreneurs </p>
+        </div>
+    </div>
+    <div class=" pt-[40px] justify-center items-center">
+        <div class="flex justify-center">
+            <img src="images/d.png" class="w-[70px] h-[70px] rounded-[60px]">
+        </div>
+        <div class="mt-[-31px] py-[0px] p-[48px] m-[24px] bg-white h-[150px]">
+            <p class="counter pl-[78px] pt-[30px] pb-[12px] font-bold" data-count="56">0</p>
+            <p class="center pb-[12px]">Colleges Onboarded</p>
+        </div>
+    </div>
+</div>
+
+<div class="mx-2 lg:mx-[53px]">
+<h1 class="text-3xl font-semibold">What to Expect</h1>
+<br>
+<div class="">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+    <div class=" relative text-center list-none">
+        <img src="images/i1_wt0euh.jpg" alt="" class="h-[315px] w-[500px]">
+        <div class="bg-black bg-opacity-50 bg-cover absolute text-overlay pl-[45px] left-0 top-0 bottom-0 flex">
+           <div class="left-20 top-9 text-2xl text-white pt-10 font-semibold"><li>Step</li>
+            <li class="text-8xl text-[#00c2cb]">1</li>
+            <li>Online Application</li>
+            </div>
+            <div class="pt-[50px] pl-[90px]	"> <img src="images/arroww.png" class="" alt=""></div>
+        </div>
+    </div>
+    <div class=" relative text-center list-none ">
+    <img src="images/i2_zigvka.jpg" alt="" class="h-[315px]  w-[515px]">
+        <div class="bg-black bg-opacity-50 bg-cover absolute text-overlay  pl-[45px] left-0 top-0 bottom-0 flex">
+           <div class="left-20 top-9 text-2xl text-white pt-10 font-semibold"><li>Step</li>
+            <li class="text-8xl text-[#00c2cb]">2</li>
+            <li>Interview with the panel</li>
+            </div>
+            <div class="pt-[50px] pl-[90px]"> <img src="images/arroww.png" alt=""></div>
+        </div>
+    </div>
+    <div class=" relative text-center list-none ">
+        <img src="images/i3_h9oyle.jpg" alt="" class="h-[315px] w-[500px]">
+        <div class="bg-black bg-opacity-50 bg-cover absolute text-overlay  left-0 top-0 bottom-0 right-0">
+           <div class="left-20 top-9 text-2xl text-white pt-10 font-semibold "><li>Step</li>
+            <li class="text-8xl text-[#00c2cb]">3</li>
+            <li>Welcome to EdVenture Park</li>
+            </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+
+
+<div>
+<div class="justify-center  mt-[100px] w- ">
+    <center>
+        <h1 class="text-3xl font-bold ">Services</h1>
+        <p class="font-semibold text-xl"> Our startups get the opportunity to run a pilot program with our host institution with access to over 30,000 students and nearly 91 educational institutions.</p>
+    </center>
+</div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+        <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+            <center>
+            <div class=" flex justify-center items-center bg-[url('/images/n.png')] group-hover:bg-[url('/images/1ss.png')] bg-cover bg-cover w-20 h-20"></div>
+                <p class="pt-[12px] pb-[12px] font-bold">Guidance</p>
+                <p class="pt-[12px] pb-[12px]">Personalized. On Demand. At Edventure park, we want your startup to be a fundamentally right company, and we guide you likewise</p>
+            </center>
+        </div>
+        <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+            <center>
+            <div class=" flex justify-center items-center bg-[url('/images/nn.png')] group-hover:bg-[url('/images/1ss1.png')] bg-cover bg-cover w-20 h-20"></div>
+                <p class="pt-[12px] pb-[12px] font-bold">Support</p>
+                <p class="pt-[12px] pb-[12px]">An ideation stage startup requires support to shape their idea in the right way. Whatever you need. We got you covered.</p>
+            </center>
+        </div>
+        <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+            <center>
+            <div class=" flex justify-center items-center bg-[url('/images/nnn.png')] group-hover:bg-[url('/images/1ss2.png')] bg-cover bg-cover w-20 h-20"></div>
+                <p class="pt-[12px] pb-[12px] font-bold">Exclusive Workshops</p>
+                <p class=" pt-[12px] pb-[12px]">Selected incubatees at Edventure Park get exclusive Workshops which are market oriented.</p>
+            </center>
+        </div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+    <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+        <center>
+        <div class=" flex justify-center items-center bg-[url('/images/p.png')] group-hover:bg-[url('/images/1ss3.png')] bg-cover bg-cover w-20 h-20"></div>
+            <p class="pt-[12px] pb-[12px] font-bold">Real Time Investor Pitches</p>
+            <p class="pt-[12px] pb-[12px]">Edventure park has a pool of investors ready to invest in companies, Meet the professionals.</p>
+        </center>
+    </div>
+    <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+        <center>
+        <div class=" flex justify-center items-center bg-[url('/images/pp.png')] group-hover:bg-[url('/images/1ss4.png')] bg-cover bg-cover w-20 h-20"></div>
+            <p class=" pt-[12px] pb-[12px] font-bold">Global Connect</p>
+            <p class=" pt-[12px] pb-[12px]">With our global network and public events, your solution can touch millions of people</p>
+        </center>  
+    </div>
+    <div class="group border-[1px] border-inherit hover:text-white p-[48px] m-[24px] bg-white hover:bg-[#00c2cb]">
+        <center>
+        <div class=" flex justify-center items-center bg-[url('/images/ppp.png')] group-hover:bg-[url('/images/1ss5.png')] bg-cover bg-cover w-20 h-20"></div>
+            <p class=" pt-[12px] pb-[12px] font-bold">Market Access</p>
+            <p class="pt-[12px] pb-[12px]">Any market niche, we connect you with the right person for you to tap into your market. </p>
+        </center>
+    </div>
+</div>
+                                                        
+
+<div class="">
+    <center>
+        <h4 class="font-semibold text-3xl">Our Companies</h4>
+        <hr>
+        <p class="font-semibold text-xl">We aim to build fundamentally Right Companies.</p>
+    </center>
+    <div class="slider w-full inline-flex flex-nowrap  pt-[150px]">
+      <div
+        class="slide-track flex items-center justify-center md:justify-start "
+      >
+        <div class="slide">
+          <img src="companylogos/company.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company4.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company5.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company7.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company8.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company9.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company10.png" class="w-20" />
+        </div>
+      </div>
+      <div
+        class="slide-track flex items-center justify-center md:justify-start "
+      >
+        <div class="slide">
+          <img src="companylogos/company.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company4.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company5.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company7.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company8.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company9.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/company10.png" class="w-20" />
+        </div>
+      </div>
+    </div>
+    <div class="slider w-full inline-flex flex-nowrap">
+      <div
+        class="slide-tracker flex items-center justify-center md:justify-start "
+      >
+        <div class="slide">
+          <img src="companylogos/c1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c2.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c4.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c5.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c7.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c8.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c9.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/c10.png" class="w-20" />
+        </div>
+      </div>
+      <div
+        class="slide-tracker flex items-center justify-center md:justify-start "
+      >
+      <div class="slide">
+        <img src="companylogos/c1.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c2.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c3.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c4.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c5.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c6.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c7.jpg" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c8.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c9.jpg" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/c10.png" class="w-20" />
+      </div>
+      </div>
+    </div>
+    <div class="slider w-full inline-flex flex-nowrap">
+      <div
+        class="slide-track flex items-center justify-center md:justify-start "
+      >
+        <div class="slide">
+          <img src="companylogos/l1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l2.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l4.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l5.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l7.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l8.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l9.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l10.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/l11.jpg" class="w-20" />
+        </div>
+      </div>
+      <div
+        class="slide-track flex items-center justify-center md:justify-start "
+      >
+      <div class="slide">
+        <img src="companylogos/l1.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l2.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l3.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l4.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l5.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l6.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l7.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l8.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l9.jpg" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l10.png" class="w-20" />
+      </div>
+      <div class="slide">
+        <img src="companylogos/l11.jpg" class="w-20" />
+      </div>
+      </div>
+    </div>
+    <div class="slider w-full inline-flex flex-nowrap">
+      <div
+        class="slide-tracker flex items-center justify-center md:justify-start "
+      >
+        <div class="slide">
+          <img src="companylogos/lo1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo2.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo4.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo5.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo7.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo8.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo9.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo10.jpg" class="w-20" />
+        </div>
+      </div>
+      <div
+        class="slide-tracker flex items-center justify-center md:justify-start "
+      ><div class="slide">
+          <img src="companylogos/lo1.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo2.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo3.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo4.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo5.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo6.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo7.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo8.jpg" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo9.png" class="w-20" />
+        </div>
+        <div class="slide">
+          <img src="companylogos/lo10.jpg" class="w-20" />
+        </div>
+        
+      </div>
+    </div>
+</div>
+
+
+<section class=" bg-cover bg-fixed hover:bg-fixed" 
+    style="background-image: url('images/cl_g4o0ha.jpg'); width: 100%; height: 650px;" >
+    <div class="container mt-[50px] pt-[22%] ">
+    <center>
+        <h1 class="text-5xl  text-lime-300 font-semibold">JOIN AS A CAMPUS LEAD.</h1>
+        <h2 class="font-semibold text-[#00c2cb] text-3xl p-[20px]">Want to contribute to writing History with EdVenture Park?</h2>
+        <h3 class=" text-3xl text-white font-thin">
+          Be the CEO of EdVenture Park at your respective college and become a
+          part of the <br> journey of 25+ innovative startups. APPLY NOW!
+        </h3>
+        <div class="p-[28px]">
+        <button class="text-white font-semibold text-sm bg-[#00c2cb] rounded-3xl py-[13px] px-[35px]">JOIN NOW</button>
+        </div>
+    </center>
+    </div> 
+</section>
+
+<section class="py-24">
+<div class="list-none">
+    <center>
+    <h1 class="font-semibold text-3xl">Life at EdVenture Park</h1>
+    </center>
+ <!--Slider wrapper-->
+
+ <div class="swiper mySwiper">
+    <div class="swiper-wrapper w-max lg:ml-[90px] lg:mr-[20px]">
+      <div class="swiper-slide">
+        <div
+          class="group bg-white flex justify-between flex-col p-6 transition-all duration-500 lg:w-[500px] shadow"
+        >
+          <div class="flex items-center gap-5 pt-5">
+            <img
+              class="h-20 w-20 rounded lg:ml-[-60px]"
+              src="images/zaif.test.jpg"
+              alt="avatar"
+            />
+            <div class="block">
+              <h5
+                class="text-gray-900 font-medium transition-all duration-500 mb-1"
+              >
+                Mohammed Zaifuddin Zumair
+              </h5>
+              <span class="text-sm leading-4 text-gray-500"
+                >Founder & CEO - INV PLASTOCONS pvt ltd.
+              </span>
+            </div>
+          </div>
+          <div class="">
+            <p
+              class="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 pl-8"
+            >
+              <i>
+                From Just an idea to an incorporated company, from just a
+                student to a founder and the CEO of a company with proper
+                guidance and support throughout the journey of
+                pre-incubation and incubation program it wasn't possible
+                without edventure park. The journey of edventure park was
+                full of fun, learning new things and filled with hurdles
+                but at every step we learn to tackle them, from becoming
+                the first company of edventure park to get the term-sheet
+                at the pre-incubation stage itself and with wonderful
+                opportunity to be a part of edventure park as a X team
+                member completely changed my vision.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div
+          class="group bg-white flex justify-between flex-col p-6 transition-all duration-500 lg:w-[500px] shadow"
+        >
+          <div class="flex items-center gap-5 pt-5">
+            <img
+              class="h-20 w-20 rounded lg:ml-[-60px]"
+              src="images/test1.jpg"
+              alt="avatar"
+            />
+            <div class="block">
+              <h5
+                class="text-gray-900 font-medium transition-all duration-500 mb-1"
+              >
+                Azhar Mohiuddin
+              </h5>
+              <span class="text-sm leading-4 text-gray-500"
+                >CEO - BioReform pvt ltd</span
+              >
+            </div>
+          </div>
+          <div class="">
+            <p
+              class="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 pl-8"
+            >
+              <i>
+                Nothing comes easy, proper guidance &amp; mentoring is
+                extremely important specially in the initial days of your
+                startup journey. This is one of the best things that we
+                got here at Edventure park that helped us a lot, along the
+                way. It was a great journey at Edventure park with lots of
+                learning, hustling, fun, ups/downs &amp; execution. We're
+                grateful &amp; honoured to be the first edventure park
+                company to crack incubation program directly, get public's
+                favourite 3 consecutive times in Founder's Friday pitch
+                &amp; the first company to raise X million in first round
+                of investment from Edventure Park.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div
+          class="flex justify-between flex-col group bg-white p-6 transition-all duration-500 lg:w-[500px] shadow"
+        >
+          <div class="flex items-center gap-5 pt-5">
+            <img
+              class="h-20 w-18 rounded lg:ml-[-60px]"
+              src="images/test2.jpg"
+              alt="avatar"
+            />
+            <div class="block">
+              <h5
+                class="text-gray-900 font-medium transition-all duration-500 mb-1"
+              >
+                Samiksha Kandari
+              </h5>
+              <span class="text-sm leading-4 text-gray-500"
+                >Incubatee - EdVenture Park</span
+              >
+            </div>
+          </div>
+          <div class="">
+            <p
+              class="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 pl-8"
+            >
+              <i>
+                Firstly I am and always will be really thankful to Meraj
+                sir and EVP's great team! Cause trust me after I have
+                joined EVP I have found many positive changes in my
+                personality. I have not only learned a lot from here but
+                also gain a lot of confidence in myself that I can be and
+                do anything I want in my life. Nothing is impossible you
+                just need to try or learn it &amp; the best part is nobody
+                will judge you for your mistakes. This place is really not
+                only making people's career but also their lives. By
+                giving such positive environment, "Vo bolta hai na achi
+                sangathe ma rahna sa apa bhi acha bana jate ho...." The
+                time I spent in EVP is the best and most memorable &amp;
+                positive part of my life.
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div
+          class="group bg-white flex justify-between flex-col p-6 transition-all duration-500 lg:w-[500px] shadow"
+        >
+          <div class="flex items-center gap-5 pt-5">
+            <img
+              class="h-20 w-20 rounded lg:ml-[-60px]"
+              src="images/testi4.jpg"
+              alt="avatar"
+            />
+            <div class="block">
+              <h5
+                class="text-gray-900 font-medium transition-all duration-500 mb-1"
+              >
+                Syed Ali Qasim Khundmiri
+              </h5>
+              <span class="text-sm leading-4 text-gray-500"
+                >CEO - iwater pvt ltd.
+              </span>
+            </div>
+          </div>
+          <div class="">
+            <p
+              class="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 pl-8"
+            >
+              <i>
+                Starting up is hard, infact building a company is the
+                toughest thing an individual can do in their life, it's
+                important to have the right guidance and support backing
+                you up so that they are there to pull you back up while
+                you deviate and Edventure Park is exactly that platform,
+                our company is what it is because if the support and love
+                that Edventure park has given us. From sleepless night
+                brainstorming on solutions to figuring out our PMF, it's
+                been a journey of ups and down but only with Edventure
+                Park being a constant in it. We can't thank the team of
+                Edventure Park enough for giving us this opportunity and
+                we will make sure to generate employment and do it for the
+                betterment of India as a whole!
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div
+          class="group bg-white flex justify-between flex-col p-6 transition-all duration-500 lg:w-[500px] shadow"
+        >
+          <div class="flex items-center gap-5 pt-5">
+            <img
+              class="h-20 w-20 rounded lg:ml-[-60px]"
+              src="images/testi5.jpg"
+              alt="avatar"
+            />
+            <div class="block">
+              <h5
+                class="text-gray-900 font-medium transition-all duration-500 mb-1"
+              >
+                Abhinav Reddy
+              </h5>
+              <span class="text-sm leading-4 text-gray-500"
+                >CEO - Rebate</span
+              >
+            </div>
+          </div>
+          <div class="">
+            <p
+              class="text-base text-gray-600 leading-6 transition-all duration-500 pb-8 group-hover:text-gray-800 slide_active:text-gray-800 pl-8"
+            >
+              <i>
+                Every great startup needs a great refinement process, and
+                that's exactly what I have experienced in edventurepark.
+                The world needs more entrepreneurs a.k.a job creators, and
+                I believe that edventurepark is filling the gap by
+                inspiring and preparing the youth of India to be just
+                that. A place with a great community, great ideas and
+                greater aspirations!!
+              </i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+</div>
+</section>
+
+
+  
+<div>
+<div class="bg-white">
+    <center>
+    <h3 class="text-3xl font-semibold">Events</h3>
+    <p class="text-l">We celebrate your struggles and journey in the most colorful way possible.</p>
+    </center>
+</div>
+<div class="pt-[40px]">
+<div class="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4">
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/1event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110 ">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat" >
+        <img src="images/2event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110 ">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/3event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/4event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/5event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/6event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110">
+    </div>
+    <div class="relative lg:max-w-xs overflow-hidden bg-cover bg-no-repeat">
+        <img src="images/7event.jpg" class="px-[10px] lg:max-w-xs transition duration-300 ease-in-out hover:scale-110">
+    </div>
+</div>
+</div>
+<div class="pt-[20px]">
+    <center>
+    <button class="text-white font-semibold text-sm bg-[#00c2cb] rounded-3xl py-[8px] px-[22px]">SEE MORE</button>
+    </center>
+</div>
+</div>
+
+<section class="pt-[40px]">
+    <center>
+    <h3 class="text-3xl font-semibold">Got Questions?</h3>
+    <p class="text-xl">Reach out to us if you have any queries. We will be more than happy to answer. </p>
+    </center>
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.2729520130274!2d78.44687837368957!3d17.398683802482516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb979c46fb2f09%3A0x5f03837e29755b4b!2sEdVenture%20Park!5e0!3m2!1sen!2sin!4v1718733327427!5m2!1sen!2sin" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+ 
+<section class="sm:flex-row mt-[50px] lg:grid-cols-2 lg:flex">
+<div class="grid grid-rows-3 list-none lg:mx-[70px] ">
+    <div class=" flex "> 
+        <div class="bg-[url('/images/loc.png')] hover:bg-[url('/images/loc1.png')] bg-cover w-12 h-12" ></div>
+        <div>
+        <h5 class=" font-semibold text-2xl px-[20px] ">Location:</h5> 
+        <li class="text-[#00c2cb] px-[20px]">MS Corporate Office <br>
+            Hyderabad, Telangana</li>
+        </div>
+    </div>
+    <div class=" flex pt-[30px]"> 
+        <div class="bg-[url('/images/env.png')] hover:bg-[url('/images/env2.png')] bg-cover w-12 h-12"></div>
+        <div>
+        <h5 class="font-semibold text-2xl px-[20px]">Email:</h5>
+        <li class="text-[#00c2cb] px-[20px]" >ceo@edventurepark.com</li>
+        </div>
+    </div>
+    <div class=" flex pt-[30px]"> 
+        <div class="bg-[url('/images/call.png')] hover:bg-[url('/images/call3.png')] bg-cover w-12 h-12"></div>
+        <div class=> 
+        <h5 class="font-semibold text-2xl px-[20px]">Call:</h5>
+        <li class="text-[#00c2cb] px-[20px]">+91 63098 06633</li>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="w-full lg:ml-[50px] mr-[70px]">
+<form>
+    <div class="lg:flex lg:flex-wrap mb-6">
+          <div class="w-full md:w-1/2 mb-6 md:mb-0 pr-4">
+          <input type="text" class=" block w-full py-2 border border-gray-200 pl-2" id="name"
+          placeholder="Your Name" required/>
+          </div>
+          <div class="w-full md:w-1/2">
+          <input type="email" class=" block w-full py-2 border border-gray-200 pl-2" id="email" 
+          placeholder="Your Email" required/>
+          </div>
+    </div>
+          <div class=" lg:w-full  mt-3 flex flex-wrap mb-6">
+          <input type="text" class="block w-full  border border-gray-200 py-2" id="subject"
+          placeholder="Subject" required/>
+          </div>
+          <div class="lg:w-full  mt-3  flex flex-wrap mb-2">
+          <textarea class="block w-full  border border-gray-200" id="message"
+          rows="5" placeholder="Message"
+          required></textarea>
+          </div>
+</form>
+</div>
+</section>
+<div class="mb-6   lg:ml-[55%]">
+<button class="text-white font-semibold text-m bg-[#00c2cb] rounded-3xl py-[10px] px-[80px]">Send Message</button>
+</div>
+
+<footer>
+<div class="">
+    <div class=" sm:flex-row lg:flex p-6">
+        <div class="lg:pl-[90px]">
+        <h1 class="text-3xl">EdVenture Park</h1>
+        <div class="list-none font-thin">
+        <li>MS Corporate Office</li>
+        <li>NMDC, Masab Tank</li>
+        <li>Hyderabad, Telangana</li>
+        <li>Phone: +91 63098 06633</li>
+        <li>Email: ceo@edventurepark.com</li>
+        </div>
+        </div>
+        <div class="lg:pl-[60px]">
+        <h1 class="font-semibold"> Company </h1>
+        <div class="list-none font-thin">
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">Home</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">About us</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">Services</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">Events</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">FAQ</span></li>
+        </div>
+        </div>
+        <div class="lg:pl-[90px]">
+        <h1 class="font-semibold">Legal</h1>
+        <div class="list-none font-thin">
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin"> Legal Notice </span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin"> Privacy Policy</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin"> Terms of Use</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin"> DPA</span></li>
+        <li class="text-[#00c2cb] font-bold">> <span class="text-black font-thin">ERDF Support</span></li>
+        </div>
+        </div>
+        <div class="lg:ml-[20%] w-">
+        <h1 class="font-semibold">Join Our Newsletter</h1>
+        <p>Keep yourself updated with the <br> "What is happening at edventurepark?" <br> monthly email we send out! :)</p>
+        <form id="form" class="flex flex-row border border-[#00c2cb] rounded-3xl">
+            <input type="email" class="border ml-[7px]  m-1"/>
+            <input type="submit" class="bg-[#00c2cb] border rounded-3xl text-white px-[15px] py-[6px]" value="Subscribe" />
+          </form>
+        </div>
+    </div>
+        <div class="bg-[#00c2cb] bg-opacity-10 p-[30px]	w-"> 
+        <p> © Copyright Edventure Park. All Rights Reserved <br>
+        Designed by <span class="text-[#00c2cb]"> Team EdVenturePark</span> </p>
+        </div>
+</div>
+</footer>   
+  <script src="script.js"></script>                        
+</body>
+</html>
